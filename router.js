@@ -21,6 +21,7 @@ router.get('/deploy', function(req, res) {
     }
 
     run_cmd("cd ~/skye.kiwi && git pull");
+    res.send('deployed');
 
     // _.each (repos, function (repo) {
     //     if (repo.name === payload.repository.name &&
