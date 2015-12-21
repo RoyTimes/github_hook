@@ -1,0 +1,7 @@
+[
+	{
+		"name" : "skye.kiwi",
+		"path" : "~/skye.kiwi",
+		"deploy" : "cd ~/skye.kiwi && npm install &&DEBUG=skye.kiwi:*npm start"
+	}
+]
